@@ -1,0 +1,28 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/flow/x3_slam/build/x3_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description//launch/rc_control.py
+-- Symlinking: /home/flow/x3_slam/install/x3_description/share/x3_description//launch/slam.launch.py
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description//launch/x3_.launch.xml
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description//urdf/x3_base.sdf
+-- Symlinking: /home/flow/x3_slam/install/x3_description/share/x3_description//urdf/x3_model.urdf
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description//config/gz_ros_bridge.yaml
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/ament_index/resource_index/package_run_dependencies/x3_description
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/ament_index/resource_index/parent_prefix_path/x3_description
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/environment/path.sh
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/environment/path.dsv
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/local_setup.bash
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/local_setup.sh
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/local_setup.zsh
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/local_setup.dsv
+-- Symlinking: /home/flow/x3_slam/install/x3_description/share/x3_description/package.dsv
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/ament_index/resource_index/packages/x3_description
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/cmake/x3_descriptionConfig.cmake
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/cmake/x3_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/package.xml

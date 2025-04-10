@@ -1,0 +1,32 @@
+<?xml version = "1.0"?>
+<launch>
+
+    <let name="urdf_path"
+         value="$(find-pkg-share x3_description)/urdf/x3_model.urdf.xacro" />
+
+    <let name="gazebo_config_path" 
+         value="$(find-pkg-share x3_description)/config/gz_ros_bridge.yaml" />
+
+    <node pkg="robot_state_publisher" exec="robot_state_publisher">
+        <param name="robot_description"
+               value="$(command 'xacro $(var urdf_path)')" />
+    </node>
+    
+    <include file="$(find-pkg-share ros_gz_sim)/launch/gz_sim.launch.py">
+        <arg name="gz_args" value="/home/flow/x3_slam/src/x3_description/urdf/x3_base.sdf -r" />
+    </include>
+
+    <!-- <node pkg="ros_gz_sim" exec="create" args="-topic robot_description" /> -->
+
+    <node pkg="tf2_ros" exec="static_transform_publisher" 
+      args="0 0 1 0 0 0 x3/base_footprint base_link"/>
+
+    <node pkg = "rviz2" exec="rviz2" args="-d /home/flow/x3_slam/src/x3_description/rviz/x3_slam.rviz"/>
+    
+
+    <node pkg="ros_gz_bridge" exec="parameter_bridge">
+        <param name="config_file"
+            value="$(var gazebo_config_path)" />
+    </node>
+
+</launch>

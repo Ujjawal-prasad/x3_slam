@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/flow/x3_slam/build/x3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/flow/x3_slam/build/x3_description -- -j12 -l12
+[0.038s] Invoked command in '/home/flow/x3_slam/build/x3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/flow/x3_slam/build/x3_description -- -j12 -l12
+[0.046s] Invoking command in '/home/flow/x3_slam/build/x3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/flow/x3_slam/build/x3_description
+[0.052s] -- Install configuration: ""
+[0.052s] -- Execute custom install script
+[0.052s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description//launch/rc_control.py
+[0.053s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description//launch/slam.launch.py
+[0.053s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description//launch/x3_.launch.xml
+[0.053s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description//urdf/lidar.urdf.xacro
+[0.053s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description//urdf/x3_base.sdf
+[0.053s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description//urdf/x3_model.urdf.xacro
+[0.053s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description//config/gz_ros_bridge.yaml
+[0.053s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/ament_index/resource_index/package_run_dependencies/x3_description
+[0.053s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/ament_index/resource_index/parent_prefix_path/x3_description
+[0.053s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/environment/ament_prefix_path.sh
+[0.054s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/environment/ament_prefix_path.dsv
+[0.054s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/environment/path.sh
+[0.054s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/environment/path.dsv
+[0.054s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/local_setup.bash
+[0.054s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/local_setup.sh
+[0.054s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/local_setup.zsh
+[0.054s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/local_setup.dsv
+[0.054s] -- Symlinking: /home/flow/x3_slam/install/x3_description/share/x3_description/package.dsv
+[0.061s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/ament_index/resource_index/packages/x3_description
+[0.061s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/cmake/x3_descriptionConfig.cmake
+[0.061s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/cmake/x3_descriptionConfig-version.cmake
+[0.062s] -- Up-to-date symlink: /home/flow/x3_slam/install/x3_description/share/x3_description/package.xml
+[0.063s] Invoked command in '/home/flow/x3_slam/build/x3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/flow/x3_slam/build/x3_description
